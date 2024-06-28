@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alarm Clock</title>
+        <style>
+           body{
+            background-image:  url("C:/Users/kashish/OneDrive/Desktop/material/clock.jpg");
+            background-size: cover;
+           
+           }
+           .box{
+            height: 600px;
+            width: 670px;
+            background-color:white;
+            margin-left: 385px;
+            margin-top: 57px;
+            box-shadow: 10px 10px 20px rgb(244, 235, 243);
+            border: 2px solid rgb(10, 47, 10);
+           }
+           .time{
+            text-align: center;
+            color:black;
+            font-style:initial;
+           }
+         
+        .box img{
+  width: 200px;
+  height:150px;
+  margin-top: 40px;
+}
+.box h1{
+  font-size: 55px;
+  font-style: initial;
+ 
+}
+.setting{
+    text-align: centre;
+    width:180px;
+    height:40px;
+    font-size: 35px;
+}
+.button{
+           text-align: center;
+            margin-top: 110px;
+            
+             font-size: 35px;
+            border-radius: 10px;
+            cursor: pointer;
+            color:rgb(255, 255, 255);
+            background-color:#103522 ;
+           font-style: oblique;
+            
+}
+
+            </style>
+          <div class="box">
+           <div class="time">
+            <img src="C:/Users/kashish/OneDrive/Desktop/material/alogo.jpg" alt="clock">
+            <h1><b>00:00:00 PM</b></h1>
+                 
+                  <select class="setting">
+                    <option value="Hour" selected disabled hidden>Hour</option>
+                  </select>
+                
+                
+                  <select class="setting">
+                    <option value="Minute" selected disabled hidden>Minute</option>
+                  </select>
+                
+                
+                  <select class="setting">
+                    <option value="AM/PM" selected disabled hidden>AM/PM</option>
+                  </select>
+                
+           <button class="button"><b>Set Alarm</b></button>
+          </div>
+ 
+          <script src="clock.js"></script>
+    </head>
+    <body></body>
+</html>
